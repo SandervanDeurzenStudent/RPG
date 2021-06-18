@@ -65,13 +65,15 @@ namespace RPG_console.Data_access
                 {
                     dr.Close();
                     
-                    cmd = new MySqlCommand("insert into users values(@username,@password)", db.GetConnection());
+                    cmd = new MySqlCommand("insert into users values(@id,@username,@password)", db.GetConnection());
+                    cmd.Parameters.AddWithValue("id", null);
                     cmd.Parameters.AddWithValue("username", username);
                     cmd.Parameters.AddWithValue("password", password);
                    
                     cmd.ExecuteNonQuery();
                     Console.WriteLine("Your Account is created . Please login now.", "Done");
                     Console.ReadLine();
+                    this.checkLogin(username, password);
                     return true;
 
                 }
@@ -82,7 +84,7 @@ namespace RPG_console.Data_access
                 Console.ReadLine();
                 return false;
             }
-            return false;
+           
         }
     }
 }

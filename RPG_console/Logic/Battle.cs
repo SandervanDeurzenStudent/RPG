@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPG_console.DAL
 {
-    class Battle
+   public class Battle
     {
         List<Enemy> Enemylist = new List<Enemy>();
 

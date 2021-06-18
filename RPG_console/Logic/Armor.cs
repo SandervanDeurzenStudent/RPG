@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPG_console.DAL
 {
-    class Armor
+    public class Armor
     {
         public string name { get; set; }
         public int health { get; set; }

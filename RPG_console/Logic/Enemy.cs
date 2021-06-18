@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPG_console.DAL
 {
-    class Enemy
+   public class Enemy
     {
         public string name { get; set; }
         public int lives { get; set; }
