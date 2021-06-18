@@ -46,12 +46,12 @@
   <ItemGroup>
     <Compile Include="DataAccess\Login.cs" />
     <Compile Include="DB.cs" />
-    <Compile Include="DAL\Armor.cs" />
-    <Compile Include="DAL\Battle.cs" />
-    <Compile Include="DAL\Enemy.cs" />
-    <Compile Include="DAL\Item.cs" />
-    <Compile Include="DAL\Level.cs" />
-    <Compile Include="DAL\Player.cs" />
+    <Compile Include="Logic\Armor.cs" />
+    <Compile Include="Logic\Battle.cs" />
+    <Compile Include="Logic\Enemy.cs" />
+    <Compile Include="Logic\Item.cs" />
+    <Compile Include="Logic\Level.cs" />
+    <Compile Include="Logic\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

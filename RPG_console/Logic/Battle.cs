@@ -53,10 +53,21 @@ namespace RPG_console.DAL
                         player.playerLivesUp();
                         break;
                     }
-                    Console.WriteLine(" Player attacks with {0} Damage!", playerAttackDamage);
-                    enemy.lives = enemy.lives - playerAttackDamage;
-                    Console.WriteLine("{0} has {1} Lives left!", enemy.name, enemy.lives);
-                    Console.ReadLine();
+                    if (enemy.Armor <= 0)
+                    {
+                        Console.WriteLine(" Player attacks with {0} Damage!", playerAttackDamage);
+                        enemy.lives = enemy.lives - playerAttackDamage;
+                        Console.WriteLine("{0} has {1} lives left!", enemy.name, enemy.lives);
+                        Console.ReadLine();
+                    }
+                    else
+                    {
+                        Console.WriteLine(" Player attacks with {0} Damage!", playerAttackDamage);
+                        enemy.Armor = enemy.Armor - playerAttackDamage;
+                        Console.WriteLine("{0} has {1} armor left!", enemy.name, enemy.Armor);
+                        Console.ReadLine();
+                    }
+                    
 
 
                     //then enemy gets to attack
@@ -67,11 +78,22 @@ namespace RPG_console.DAL
                         Console.WriteLine("{0} is defeated!", enemy.name);
                         break;
                     }
+                    if(Player.playerArmor <= 0)
+                    {
+                        Console.WriteLine(enemy.name + " attacks with {0} Damage!", enemyAttackDamage);
+                        Player.lives = Player.lives - enemyAttackDamage;
+                        Console.WriteLine("{0} has {1} lives left!", Player.name, Player.lives);
+                        Console.ReadLine();
+                    }
+                    else
+                    {
+                        Console.WriteLine(enemy.name + " attacks with {0} Damage!", enemyAttackDamage);
+                        Player.playerArmor = Player.playerArmor - enemyAttackDamage;
+                        Console.WriteLine("{0} has {1} armor left!", Player.name, Player.playerArmor);
+                        Console.ReadLine();
+                    }
 
-                    Console.WriteLine(enemy.name + " attacks with {0} Damage!", enemyAttackDamage);
-                    Player.lives = Player.lives - enemyAttackDamage;
-                    Console.WriteLine("{0} has {1} lives left!", Player.name, Player.lives);
-                    Console.ReadLine();
+                    
 
                     //all enemies died before the player so win message
                 }

@@ -27,6 +27,7 @@ namespace RPG_console
             }
             //set name for player
             Console.WriteLine("Hello... {0}" , DAL.Player.name);
+            Console.WriteLine("press enter to continue");
             Console.ReadLine();
 
             Console.WriteLine("What... where am i??");
@@ -137,8 +138,6 @@ namespace RPG_console
                 {
                     this.login();
                 }
-               
-
             }
         }
         public void showPlayerStats()
