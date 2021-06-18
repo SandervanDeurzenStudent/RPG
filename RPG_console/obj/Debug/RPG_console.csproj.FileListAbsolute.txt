@@ -1,0 +1,14 @@
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\RPG_console.exe.config
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\RPG_console.exe
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\RPG_console.pdb
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\obj\Debug\RPG_console.csprojAssemblyReference.cache
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\obj\Debug\RPG_console.csproj.CoreCompileInputs.cache
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\obj\Debug\RPG_console.exe
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\obj\Debug\RPG_console.pdb
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\MySql.Data.dll
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\Google.Protobuf.dll
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\Renci.SshNet.dll
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\bin\Debug\MySql.Data.xml
+C:\Users\Sander van Deurzen\source\repos\FONTYS\S2\RPG_console\RPG_console\obj\Debug\RPG_console.csproj.CopyComplete
